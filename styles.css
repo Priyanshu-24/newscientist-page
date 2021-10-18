@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-family: "PT Serif",Georgia,serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 162, 255, 0.945);
+}
+
+.head-top{
+    display: flex;
+    padding: 1% 1%;
+    justify-content: center;
+}
+
+.newsletter{
+    padding: 0 2%;
+}
+
+.sub-btn{
+    padding: 1% 0 0 6%;
+    align-items:flex-end;
+}
+
+.sub-btn button{
+    height: 3em;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 1% 1%;
+    font-weight: bold;
+}
+
+.sub-btn button:hover{
+    background-color: rgb(201, 15, 15);
+}
+
+.head-down{
+    display: flex;
+    justify-content: center;
+}
+
+.head-down span{
+    padding: 1% 1%;
+    font-weight: bold;
+}
+
+.head-down span:hover{
+    color: rgb(65, 153, 225);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    justify-content: center;
+    max-width: 60%;
+}
+
+.icons span{
+   margin: 1% 1%;
+   font-size: 20px;
+   padding: 1.5% 2%;
+   border-radius: 50%;
+   color: white;
+}
+
+.icons span:hover{
+    color: black;
+}
+
+.content img{
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.content button{
+    background-color: rgb(6, 89, 156);
+    color: white;
+    font-weight: bold;
+    padding: 1% 2%;
+    border-radius: 12px;
+    border: none;
+    margin: 2% 1% 0 1%;
+}
+
+.content button:hover{
+    background-color: blue;
+}
+
+.spn-ctn{
+    display: flex;
+    background-color: rgb(180, 179, 179);
+    margin-bottom: 3%;
+}
+
+.spn-ctn:hover{
+    background-color: gray;
+}
+
+.side-col{
+    margin-left: 4%;
+    max-width: 25%;
+}
+
+.side-col-head{
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.side-col-head div{
+    background-color: rgb(199, 194, 194);
+    padding: 2% 3%;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.side-col aside{
+    background-color: rgb(199, 194, 194);;
+    padding: 2% 2%;
+    font-size: 1.4em;
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+.side-col-head div:hover{
+    background-color: gray;
+}
+
+.side-col aside:hover{
+    background-color: gray;
+}
+
+.more{
+    margin-left: 5%; 
+    margin-top: 2%;
+}
+
+.more-img{
+    display: flex;
+    max-width: 80%;
+}
+
+.sec{
+    margin-right: 2%;;
+}
